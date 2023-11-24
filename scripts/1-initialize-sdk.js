@@ -22,8 +22,8 @@ const sdk = ThirdwebSDK.fromPrivateKey(
   process.env.PRIVATE_KEY,
   // RPC URL, we'll use our QuickNode API URL from our .env file.
   process.env.QUICKNODE_API_URL,{
-    clientId : "",
-    secretKey : "",//When uploading in GIt hub, remove this private key
+    clientId : "clientkey",
+    secretKey : "secretkey",//When uploading in GIt hub, remove this private key
   }
 );
 
