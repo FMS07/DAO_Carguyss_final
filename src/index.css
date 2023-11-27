@@ -4,7 +4,7 @@ body {
   font-family: Inter, Georgia, 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#4d44fb;
+  background-color:#000000;
   color: #fff;
   overflow-x: hidden;
 }
@@ -133,11 +133,11 @@ button {
 }
 
 button:hover {
-  background-color: #121212;
+  background-color: #386796;
 }
 
 button:focus {
-  background-color: #222;
+  background-color: #dfcccc;
 }
 
 button:disabled {

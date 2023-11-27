@@ -12,9 +12,9 @@ const App = () => {
   const { contract: editionDrop } = useContract(editionDropAddress, "edition-drop");
 
   // Initialize our token contract
-const { contract: token } = useContract('TOKEN_CONTRACT_ADDRESS', 'token');
+const { contract: token } = useContract('TOKEN_ADDRESS', 'token');
 
-const { contract: vote } = useContract("VOTE_CONTRACT_ADDRESS", "vote");
+const { contract: vote } = useContract("VOTE_ADDRESS", "vote");
   // Hook to check if the user has our NFT
   const { data: nftBalance } = useNFTBalance(editionDrop, address, "0")
   const hasClaimedNFT = useMemo(() => {
@@ -160,8 +160,9 @@ const memberList = useMemo(() => {
 if (hasClaimedNFT) {
   return (
     <div className="member-page">
-      <h1>❄️DAO Member Page❄️</h1>
+      <h1>❄️Carguyzz DAO❄️</h1>
       <p>Congratulations on being a member</p>
+      <p></p>
       <div>
         <div>
           <h2>Member List</h2>
